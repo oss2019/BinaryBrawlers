@@ -1,5 +1,10 @@
-Check your python version using
+__On Windows__ Open powershell in administrator mode and type
+```pwsh
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
+exit
+````
 
+Open new Powershell/Terminal. Check your python version using
 ```sh
 python --version
 ```
@@ -9,11 +14,6 @@ if python version comes 2.7.x then use *python3* in place of *python* in the fol
 ```sh
 python -m pip install virtualenv
 ```
-
-__On Windows__ Open powershell in administrator mode and type
-```pwsh
-Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
-````
 
 Go to the dicrctory where you will like to start the project
 
